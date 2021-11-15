@@ -21,6 +21,10 @@ footer {
 .row {
   display: flex;
 }
+aside {
+  width: 25%;
+}
+
 
 .placeholder {
   color: white;
