@@ -27,6 +27,9 @@ aside {
 main {
   width: 75%;
 }
+.column {
+  flex: 1 0 0;
+}
 
 
 .placeholder {
