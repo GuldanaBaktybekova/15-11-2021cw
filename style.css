@@ -18,6 +18,10 @@ footer {
   background-color: cornflowerblue;
   min-height: 80px;
 }
+.row {
+  display: flex;
+}
+
 .placeholder {
   color: white;
   font-weight: bold;
