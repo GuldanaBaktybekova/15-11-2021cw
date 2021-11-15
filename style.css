@@ -24,6 +24,9 @@ footer {
 aside {
   width: 25%;
 }
+main {
+  width: 75%;
+}
 
 
 .placeholder {
