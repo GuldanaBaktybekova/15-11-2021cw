@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 nav {
   background-color: tomato;
   min-height: 60px;
@@ -30,7 +33,7 @@ footer {
   flex-basis: 0;
 }
 aside {
-  width: 50%;
+  width: 25%;
 }
 
 
@@ -43,4 +46,9 @@ aside {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
 }
