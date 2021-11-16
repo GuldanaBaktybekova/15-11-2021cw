@@ -42,6 +42,16 @@ header .ordinary {
   display: flex;
 }
 .container {
-  background-color: rgb(56, 51, 51);
+  background-color: #1d1a1a;
   color: white;
+  
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 40px;
+}
+.container a {
+  color: white;
+}
+.cont {
+  padding-left: 30px;
 }
