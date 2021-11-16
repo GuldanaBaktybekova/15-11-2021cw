@@ -55,3 +55,19 @@ header .ordinary {
 .cont {
   padding-left: 30px;
 }
+
+.cont2 a {
+  color: rgb(6, 59, 172);
+  font-weight: bold;
+  text-decoration: none;
+} 
+#green {
+  color: green;
+  text-decoration: none;
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+.container2 p {
+  font-size: 14px;
+}
