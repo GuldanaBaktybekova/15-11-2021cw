@@ -59,7 +59,7 @@ header .ordinary {
 .cont2 a {
   color: rgb(6, 59, 172);
   font-weight: bold;
-  text-decoration: none;
+ 
 } 
 #green {
   color: green;
@@ -88,6 +88,27 @@ h2 {
 article {
   padding: 10px;
   
+}
+
+
+.aside aside {
+  padding: 10px;
+  margin: 15px;
+}
+.aside aside:first-child {
+  background-color: rgb(231, 222, 222);
+}
   
+.aside ul li {
+  list-style-type: none;
   
 }
+.aside li a {
+  color: rgb(13, 149, 194);
+  font-size: 13px;
+}
+.aside {
+  position: sticky;
+  top: 30px;
+}
+ 
