@@ -36,7 +36,7 @@ header .ordinary {
 }
 
 .column {
-  flex: 1 0 0;
+  flex: 0 0 auto;
 }
 .row {
   display: flex;
@@ -70,4 +70,11 @@ h2 {
 }
 .container2 p {
   font-size: 14px;
+}
+.thumbnail {
+  background-color: #1d1a1a;
+}
+.cont2{
+  margin: 20px;
+  border: 1px solid black;
 }
