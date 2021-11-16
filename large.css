@@ -36,13 +36,13 @@ header .ordinary {
 }
 
 .column {
-  flex: 0 0 auto;
+  flex: 1 0 0;
 }
 .row {
   display: flex;
 }
 .container {
-  background-color: #1d1a1a;
+  background-color: #343a40;
   color: white;
   
   font-style: italic;
@@ -72,9 +72,22 @@ h2 {
   font-size: 14px;
 }
 .thumbnail {
-  background-color: #1d1a1a;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 .cont2{
-  margin: 20px;
-  border: 1px solid black;
+  margin: 10px;
+  border: 1px solid gray;
+  width: 50%;
+  
+}
+article {
+  padding: 10px;
+  
+  
+  
 }
