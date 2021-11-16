@@ -1,4 +1,25 @@
+body {
+  margin: 25px;
+}
 header {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid rgb(223, 215, 215);
+
+}header .name {
+  color: black;
+  font-size: 25px;
+}
+header .ordinary {
+  margin-left: 40px;
+}
+
+.ordinary {
+  color: grey;
+  font-size: 13px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
