@@ -1,15 +1,15 @@
 body {
   margin: 25px;
+  
 }
 header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(223, 215, 215);
-
-}header .name {
+}
+header .name {
   color: black;
   font-size: 25px;
-  
 }
 header .ordinary {
   margin-left: 40px;
@@ -19,8 +19,6 @@ header .ordinary {
   padding: 3px;
   border: 1px solid black;
   border-radius: 3px;
- 
-  
 }
 .btn a {
   color: gray;
@@ -44,9 +42,9 @@ header .ordinary {
 .container {
   background-color: #343a40;
   color: white;
-  
+
   font-style: italic;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 40px;
 }
 .container a {
@@ -59,14 +57,13 @@ header .ordinary {
 .cont2 a {
   color: rgb(6, 59, 172);
   font-weight: bold;
- 
-} 
+}
 #green {
   color: green;
   text-decoration: none;
 }
 h2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .container2 p {
   font-size: 14px;
@@ -79,17 +76,14 @@ h2 {
   align-items: center;
   width: 30%;
 }
-.cont2{
+.cont2 {
   margin: 10px;
   border: 1px solid gray;
   width: 50%;
-  
 }
 article {
   padding: 10px;
-  
 }
-
 
 .aside aside {
   padding: 10px;
@@ -98,10 +92,9 @@ article {
 .aside aside:first-child {
   background-color: rgb(231, 222, 222);
 }
-  
+
 .aside ul li {
   list-style-type: none;
-  
 }
 .aside li a {
   color: rgb(13, 149, 194);
@@ -111,4 +104,52 @@ article {
   position: sticky;
   top: 30px;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+}
+.together {
+  font-family: "Times New Roman", Times, serif;
  
+}
+
+
+
+.column-1{
+  flex: 0 0 8.333333%;
+}
+.column-2 {
+  flex: 0 0 16.66666667%;
+}
+.column-3 {
+  flex: 0 0 25%;
+}
+.column-4 {
+  flex: 0 0 33.333333%;
+}
+.column-5 {
+  flex: 0 0 41.66666667%;
+}
+.column-6 {
+  flex: 0 0 50%;
+}
+.column-7 {
+  flex: 0 058.22222%;
+}
+.column-8 {
+  flex: 0 0 66.66666667%;
+}
+.column-9 {
+  flex: 0 0 75%;
+}
+.column-10 {
+  flex: 0 0 83.111111%;
+}
+.column-11 {
+  flex: 0 0 91.66666667%;
+}
+.column-12 {
+  flex: 0 0 100%;
+}
+
